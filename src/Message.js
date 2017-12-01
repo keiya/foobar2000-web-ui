@@ -13,15 +13,15 @@ const statusFields = [
     null,
     null,
     'secondsPlayed',
+    'trackLength',
     'codec',
     'bitrate',
     'artist',
     'album',
-    'date',
     'genre',
+    'date',
     'trackNumber',
     'track',
-    'trackLength',
 ];
 
 function parseTrackData(text) {

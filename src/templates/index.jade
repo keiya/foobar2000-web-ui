@@ -46,3 +46,7 @@ block content
 
         section(class="alert alert-danger" ng-show="connectionStatus.disconnected")
             p {{connectionStatus.foobarIsClosed ? 'Foobar2000 was closed.' : 'Disconnected from server. Attempting to reconnect.'}}
+        section
+            pre {{playBackStatus}}
+        section
+            audio(id="psc" src="http://192.168.1.200:56923/content/aa26c86f9c5141d513d27c3063ccb33b.mp3?profile_id=11&convert=mp3" preload="none" control)
